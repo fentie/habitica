@@ -288,6 +288,7 @@
     margin-left: 8px;
     padding-right: 20px;
     overflow-wrap: break-word;
+    word-break: break-all;
 
     &-done {
       color: $gray-300;
