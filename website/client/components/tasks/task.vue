@@ -134,11 +134,11 @@
     padding-bottom: 8px;
     color: $gray-10;
     font-weight: normal;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     margin-right: 15px;
     line-height: 1.43;
     font-size: 14px;
-    min-width: 0px;
+    min-width: 0;
     overflow-wrap: break-word;
 
     &.has-notes {
@@ -225,7 +225,7 @@
     color: $gray-100;
     font-style: normal;
     padding-right: 20px;
-    min-width: 0px;
+    min-width: 0;
     overflow-wrap: break-word;
 
     &.has-checklist {
@@ -234,14 +234,14 @@
   }
 
   .task-content {
-    padding-top: 0px;
+    padding-top: 0;
     padding-bottom: 7px;
     flex-grow: 1;
     cursor: pointer;
     background: $white;
     border: 1px solid transparent;
     transition-duration: 0.15;
-    min-width: 0px;
+    min-width: 0;
 
     &.no-right-border {
       border-right: none !important;
@@ -269,7 +269,7 @@
     color: $gray-200;
 
     span {
-      margin: 0px 4px;
+      margin: 0 4px;
     }
 
     .svg-icon {
@@ -283,7 +283,7 @@
     font-size: 14px;
     line-height: 1.43;
     margin-bottom: 10px;
-    min-height: 0px;
+    min-height: 0;
     width: 100%;
     margin-left: 8px;
     padding-right: 20px;
@@ -300,8 +300,8 @@
 
     .custom-control-label {
       margin-left: 6px;
-      padding-top: 0px;
-      min-width: 0px;
+      padding-top: 0;
+      min-width: 0;
     }
   }
 
